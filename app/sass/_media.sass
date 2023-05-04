@@ -1,0 +1,135 @@
+@media (max-width: 1439px)
+	.sidepanel
+		display: none
+
+
+@media (max-width: 1200px)
+	.container 
+		max-width: 960px
+	.about 
+		&__wrapper 
+			grid-template-columns: 400px 520px
+			column-gap: 40px
+		&__skills 
+			column-gap: 20px
+			&__item 
+				grid-template-columns: repeat(auto-fit, 270px)
+				justify-content: space-between
+	.portfolio 
+		&__wrapper
+			grid-template-columns: repeat(auto-fit, 280px)
+			grid-auto-rows: 280px
+			justify-content: space-around
+			row-gap: 35px
+			.horizontal, .vertical
+				grid-row: unset 
+				grid-column: unset
+
+
+@media (max-width: 992px)
+	.container 
+		max-width: 720px
+	.about 
+		&__wrapper
+			grid-template-columns: 300px 380px
+		&__skills 
+			grid-template-columns: 380px
+			grid-auto-rows: minmax(90px, auto)
+			&-item 
+				grid-template-columns: 40px 320px
+				column-gap: 20px
+		&-photo
+			img
+				object-fit: cover
+				height: 100%
+				width: 100%
+	.title 
+		&_fz36 
+			font-size: 30px
+	.resume 
+		&__wrapper
+			column-gap: 40px
+			padding: 60px 20px 0 20px
+			grid-template-columns: repeat(2, 400px)
+	.skills 
+		&__wrapper 
+			grid-template-columns: repeat(4, 1fr)
+			grid-template-rows: repeat(2, minmax(160px, auto))
+			grid-auto-rows: minmax(160px, auto) 
+			column-gap: 13px
+			row-gap: 13px
+		&__ratings 
+			margin-top: 120px
+			grid-template-columns: repeat(2, minmax(300px, auto))
+			grid-auto-columns: minmax(300px, auto)
+	.portfolio 
+		&__wrapper 
+			row-gap: 70px
+
+
+@media (max-width: 768px)
+	.container 
+		max-width: 540px
+	.title
+		&_fz48
+			font-size: 28px
+	.promo
+		&__title
+			line-height: 39px
+			width: 300px
+	.about 
+		padding-top: 40px
+		&__wrapper 
+			grid-template: 400px auto auto / 1fr
+		&__photo 
+			grid-row: unset
+		&__skills
+			grid-template-columns: repeat(2, 260px) 
+			&-item 
+				grid-template-columns: 40px 200px
+				column-gap: 20px
+	.portfolio 
+		padding-top: 40px
+		&__wrapper 
+			row-gap: 35px
+	.price 
+		padding-top: 20px
+		&__wrapper
+			margin-top: 20px
+			justify-content: center
+
+
+
+@media (max-width: 576px)
+	.container 
+		max-width: 100%
+		padding: 0 10px
+	.title
+		&_fz48
+			font-size: 26px
+		&_fz36
+			font-size: 24px
+	.hamburger
+		right: 20px
+	.promo
+		&__btns
+			background-size: 58%
+			margin-top: 20px
+	.menu
+		&__block 
+			width: 250px
+			padding-left: 20px 
+	.about 
+		&__wrapper 
+			grid-template: 340px auto auto / 1fr
+		&__skills 
+			grid-template-columns: 1fr
+		&__subtitle 
+			line-height: 36px
+	.price 
+		&__wrapper
+			grid-template-columns: repeat(auto-fit, 295px)
+			row-gap: 25px
+	
+
+		

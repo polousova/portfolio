@@ -1,0 +1,8 @@
+File from: [app/images/src/works/wordpress.png]
+
+File to: [app/images/dest/works/wordpress.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/dina/Frontend/GitHub/websites/portfolio/node_modules/pngquant-bin/vendor/pngquant --quality=75-100 -o app/images/dest/works/wordpress.png app/images/src/works/wordpress.png
+  error: failed writing image to app/images/dest/works/wordpress.png (16)

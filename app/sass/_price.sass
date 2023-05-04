@@ -1,0 +1,39 @@
+.price 
+	padding-top: 60px
+	&__subtitle 
+		padding-left: 90px
+	&__wrapper 
+		display: grid
+		grid-template: repeat(3, minmax(45px, auto)) / repeat(2, minmax(320px, 440px))
+		grid-auto-rows: minmax(45px, auto)
+		margin-top: 45px
+		padding: 0 60px
+		row-gap: 15px
+		column-gap: 60px
+		justify-content: space-between
+	&__item 
+		display: grid
+		position: relative
+		padding-left: 25px
+		grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto)
+		row-gap: 5px
+		&::before
+			top: 3px
+		@include small-circle
+	&__title
+		position: relative
+		font-style: italic
+		font-weight: bold
+		font-size: 16px
+		
+	&__value 
+		position: relative
+		padding-left: 25px
+		font-style: italic
+		font-weight: bold
+		font-size: 16px
+		justify-self: end
+	&__line 
+		font-style: italic
+		font-size: 12px
+		grid-column: 1 / 3

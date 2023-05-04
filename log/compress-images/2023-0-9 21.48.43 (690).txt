@@ -1,0 +1,8 @@
+File from: [app/images/src/icons/skills/bem.png]
+
+File to: [app/images/dest/icons/skills/bem.png]
+
+Compression algorithm: [pngquant]
+
+Description: Error: Command failed: /Users/dina/Frontend/GitHub/websites/portfolio/node_modules/pngquant-bin/vendor/pngquant --quality=75-100 -o app/images/dest/icons/skills/bem.png app/images/src/icons/skills/bem.png
+  error: failed writing image to app/images/dest/icons/skills/bem.png (16)

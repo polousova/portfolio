@@ -1,0 +1,29 @@
+
+@mixin button 
+	display: block
+	font-weight: 400
+	font-size: 11px
+	text-transform: uppercase
+	mix-blend-mode: normal
+	height: 27px
+	width: 115px
+	line-height: 27px
+	text-align: center
+	margin: 0 auto
+
+@mixin title
+	font-weight: 700
+	font-size: 38px
+	line-height: 32px
+	text-transform: uppercase
+	text-align: center
+
+@mixin subtitle
+	font-weight: 400
+	font-size: 17px
+	text-align: center
+
+@mixin btn_hover
+	&:hover
+		background-image: none
+		background-color: $tint-color

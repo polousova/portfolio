@@ -1,0 +1,8 @@
+File from: [app/images/src/IMG_1325.jpg]
+
+File to: [app/images/dest/IMG_1325.jpg]
+
+Compression algorithm: [mozjpeg]
+
+Description: Error: Command failed: /Users/dina/Frontend/GitHub/websites/portfolio/node_modules/mozjpeg/vendor/cjpeg -quality 75 -outfile app/images/dest/IMG_1325.jpg app/images/src/IMG_1325.jpg
+Empty input file

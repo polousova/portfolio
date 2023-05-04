@@ -1,0 +1,49 @@
+.promo
+	min-height: 100vh
+	position: relative
+	background-image: url('../images/src/main_bg.jpg')
+	background-position: center right
+	background-repeat: no-repeat
+	background-size: 100%
+
+	/*no-repeat 50%/cover*/
+	padding-top: 205px
+	&__title 
+		width: 535px
+		margin-top: 10px
+	&__subtitle 
+		position: relative
+		padding-left: 10px
+		z-index: 2
+		@include before_circle
+	&__btns
+		margin-top: 25px
+		display: flex
+		align-items: center
+		justify-content: space-between
+		width: 250px
+	&__link 
+		color: #000
+		font-weight: bold
+		text-decoration: none
+		&:hover
+			color: #000
+			text-decoration: none
+.hamburger 
+	position: absolute
+	top: 20px
+	right: 30px
+	height: 21px
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	align-items: flex-end
+	cursor: pointer
+	span
+		display: block
+		width: 30px
+		height: 3px
+		background: $black-shade
+	span.long 
+		width: 36px
+
